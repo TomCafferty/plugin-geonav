@@ -1,0 +1,3 @@
+<?php
+$tempdb = 'test';
+?>

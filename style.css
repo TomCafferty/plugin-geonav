@@ -1,0 +1,58 @@
+#home {
+	float: left;
+    margin: auto;
+    width: 100%;
+}
+
+.focusBtn {
+    text-align : center;
+    vertical-align: middle; 
+    float: right;
+    margin-right: 20px;
+}
+
+.mymap {
+    z-index:-1; 
+    border: 5px; 
+    border-color:blue;
+    border-style:solid;
+    margin: 20px;
+}
+
+#map3d {
+    z-index:-1;
+ }
+
+#userInput {
+    text-align : center;
+    margin     : auto;
+    padding    : 10px 0; 
+    width      : 100%;
+    font-size  : normal;
+}
+
+#sample-ui {
+    font-size  : 16px; 
+    width      : 20%;
+    text-align : center;
+    padding    : 0 0 20px 0;  
+}
+
+.ui-input-button {
+    vertical-align: middle; 
+}
+
+.ui-input-field {
+    vertical-align: middle; 
+    margin: 0 10px; 
+}
+
+a.buttonWiki { 
+    text-decoration: none;
+    border-bottom  : none; 
+} 
+img.buttonWiki { 
+    float          : right;
+    text-decoration: none;
+    border-bottom  : none; 
+} 

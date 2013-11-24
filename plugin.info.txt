@@ -1,0 +1,7 @@
+base geonav
+author tom_c
+email tcafferty@glocalfocal.com
+date 2013-11-21
+name GeoNav Plugin
+desc provide ability to select wiki page on geographical input
+url http://www.dokuwiki.org/plugin:geonav
