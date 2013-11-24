@@ -34,8 +34,8 @@ class action_plugin_geonav extends DokuWiki_Action_Plugin {
         global $conf;
         $basePath = DOKU_BASE;
         $basePath = str_replace("dokuwiki/", "", $basePath);
-        $sidebar_ID = "earth_map";
-       if ((($conf['template'] == "sidemap") || ($conf['template'] == "sidemap")) && (p_get_metadata($sidebar_ID, 'plugin geonav'))) { 
+        $sidebar_ID = "sidemap";
+       if (p_get_metadata($sidebar_ID, 'plugin geonav')) { 
             $event->data['script'][] = array(
                             'type'    => 'text/javascript',
                             'charset' => 'utf-8',
