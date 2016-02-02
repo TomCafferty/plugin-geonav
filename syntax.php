@@ -57,7 +57,7 @@ class syntax_plugin_geonav extends DokuWiki_Syntax_Plugin {
   /**
    * Handle the match
    */
-  function handle($match, $state, $pos, &$handler){
+  function handle($match, $state, $pos, Doku_Handler $handler){
       parse_str($match, $return);   
       return $return;
   }
@@ -65,7 +65,7 @@ class syntax_plugin_geonav extends DokuWiki_Syntax_Plugin {
   /**
    *  Render output
    */
-  function render($mode, &$R, $data) {
+  function render($mode, Doku_Renderer $R, $data) {
       global $INFO;
       global $conf;
       require_once(DOKU_PLUGIN.'geonav/lang/en/lang.php');
